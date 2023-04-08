@@ -1,0 +1,282 @@
+
+  table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.register{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.btn1 {
+  box-shadow: 4px 4px black;
+  background-color: royalblue;
+  width: 150px;
+  height: 30px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px;
+
+}
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.h2 {
+  margin-top: 0;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.input[type="text"], input[type="password"] {
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*Register*/
+.register-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.register-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.email input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/*.bg-image {
+  background-image: url('../img/imagen1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 93vh;
+  width: 250vh;
+}*/
+/*contenedor de texto*/
+.conten-text{
+  width: 550px;
+  height: 500px;
+
+  padding: 10px;
+  margin: 20px;
+}
+.parrafo{
+  text-align: justify;
+  padding: 10px;
+  margin: 20px;
+}
+
+.image{
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+
+/* Estilos para el encabezado */
+.h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilos para el texto de contenido */
+.parrafo {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 50px 0;
+  padding: 0 50px;
+  text-align: center;
+}
+
+/* Estilos para la imagen */
+.image {
+  display: block;
+  margin: 50px auto;
+  max-width: 100%;
+}
+
+/* Estilos para los botones */
+.btn-home {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+}
+
+.btn-home:hover {
+  background-color: #0069d9;
+  border: 2px solid #0062cc;
+}
+.btn-home:active {
+  transform: translateY(1px);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+  padding: 10px;
+}
+
+/*Contenedor de login*/
+.vh-100{
+  background-color: #c8dff8;
+}
+
+/*Diseños para las tablas*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table button {
+  padding: 6px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table button:hover {
+  background-color: #45a049;
+}
+
+table input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*diseño de scroll*/
+.table-container {
+  overflow-y: scroll;
+  max-height: 200px; /* You can adjust this value to fit your needs */
+}
+
+
+
+
+
